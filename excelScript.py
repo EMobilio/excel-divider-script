@@ -34,5 +34,10 @@ def create_new_files(path, header_lines, file_lines):
         new_workbook.save(name)
 
 
-create_new_files(sys.argv[1], sys.argv[2], sys.argv[3])
+def main():
+    create_new_files(sys.argv[1], sys.argv[2], sys.argv[3])
+
+
+if __name__ == "__main__":
+    main()
 
